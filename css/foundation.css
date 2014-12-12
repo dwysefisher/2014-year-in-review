@@ -1576,7 +1576,7 @@ meta.foundation-mq-topbar {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
     background: #333333; }
@@ -1895,7 +1895,7 @@ meta.foundation-mq-topbar {
 
 button, .button {
   cursor: pointer;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2439,7 +2439,7 @@ a.th {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
@@ -2447,7 +2447,7 @@ a.th {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
@@ -2747,7 +2747,7 @@ a.th {
       padding-right: 2rem;
       padding-bottom: 1.0625rem;
       padding-left: 2rem;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover {
         background: #e2e2e2; }
@@ -2851,7 +2851,7 @@ ul.pagination {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem; }
@@ -2861,7 +2861,7 @@ ul.pagination {
     .side-nav li.active > a:first-child {
       color: #4d4d4d;
       font-weight: normal;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -2883,14 +2883,15 @@ ul.pagination {
     .accordion dd.active a {
       background: white; }
     .accordion dd > a {
-      background: Linen;
+      background: Khaki;
       color: #990033;
       padding: 1rem;
       display: block;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-      font-size: 1rem; }
+      font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+     /* border-bottom: 1px dotted #990033;*/ }
       .accordion dd > a:hover {
-        background: WhiteSmoke; }
+        background: Snow; }
   .accordion .content {
     display: none;
     padding: 0.9375rem;
@@ -2942,7 +2943,8 @@ a {
   line-height: inherit; }
   a:hover, a:focus {
     color: #cc9900;
-    text-decoration: underline; }
+    text-decoration: none;
+/*    border-bottom: 1px dotted #990033;*/ }
   a img {
     border: none; }
 
@@ -3650,7 +3652,7 @@ blockquote p {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -3834,7 +3836,7 @@ blockquote p {
       right: auto; } }
 .label {
   font-weight: normal;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karmina-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
