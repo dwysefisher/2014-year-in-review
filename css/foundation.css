@@ -43,7 +43,9 @@ body {
   cursor: default; }
 
 a:hover {
-  cursor: pointer; }
+  cursor: pointer;
+  color: #cc9900;
+  border-bottom: 1px dotted #cc9900; }
 
 img,
 object,
@@ -2833,7 +2835,7 @@ ul.pagination {
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-        background: #008cba; }
+        background: #cc9900; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -2944,7 +2946,7 @@ a {
   a:hover, a:focus {
     color: #cc9900;
     text-decoration: none;
-/*    border-bottom: 1px dotted #990033;*/ }
+    border-bottom: 1px dotted #cc9900; }
   a img {
     border: none; }
 
