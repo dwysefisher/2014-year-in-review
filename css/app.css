@@ -137,8 +137,7 @@ figcaption {
 	}
 
 .header-image-bg {
-	background:  url("http://placehold.it/1000x400") no-repeat center;
-/*  background: #FFF url(../img/groundbreaking-students.jpg) no-repeat center;*/
+  background: #FFF url(../img/sanders-dedication-hero.jpg) no-repeat center;
   height: 400px;
   max-width: 100%;
   padding: 2em;
@@ -164,7 +163,7 @@ figcaption {
 }
 
 
-/* ======================== LISTS ========================== */
+/* ======================== LISTS ========================== 
 
 ul.circle li {
 	padding-bottom: 1em;

@@ -44,8 +44,7 @@ body {
 
 a:hover {
   cursor: pointer;
-  color: #cc9900;
-  border-bottom: 1px dotted #cc9900; }
+}
 
 img,
 object,
@@ -2945,8 +2944,7 @@ a {
   line-height: inherit; }
   a:hover, a:focus {
     color: #cc9900;
-    text-decoration: none;
-    border-bottom: 1px dotted #cc9900; }
+    text-decoration: none;}
   a img {
     border: none; }
 
