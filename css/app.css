@@ -41,37 +41,25 @@ footer h1 {
 }
 
 /* ======================== TYPOGRAPHY ========================== */
-h1 {
-	font-family: "bello-pro", Helvetica, !important;
-	font-size: 5em;
-}
+	h1 {font-size: 2em; /* 5 x 40% */}
+	
+	h2 {font-weight:300;font-size:2.75em; /* 6.85 x 40% */ }
+	
+	h3 {font-size:1.5em; /* 3.5 x 40% */}
+	
+	h4 {font-size:1em; /* 2.6 x 40% */}
+	
+	h5 {font-size:.75em; /* 1.618 x 40% */	}
+	
+	p {font-size:1em;font-weight:300;	}
 
-
-h2 {
-	font-weight:300;
-	font-size:6.85em;
-}
-
-h3 {
-	font-size:3.5em;
-	line-height:1em;
-	padding-top: 0.5em !important;
-	margin-bottom: 0.5em;
-	font-style: normal;
-}
-
-h4 {
-	font-size:2.6em;
-}
-
-h5 {
-	font-size:1.618em;
-}
-
-p {
-	font-size:1.618em;
-	font-weight:300;
-}
+	p.first-paragraph{font-size: 1em; /* 2 x 40% */}
+	
+	h3.first-paragraph {
+		font-size: 1.4em;
+	}
+	
+	.body-list {font-size: 1em; }
 
 .intro {
 	background-color: #990033;
@@ -214,10 +202,26 @@ and (max-device-width : 1024px) {
 	}
 	
 	.seal {
-		max-width: 20%;
-		max-height: 20%;
+		max-width: 25%;
+		max-height: 25%;
 	}
+	
+	h1 {font-size: 3em; /* 5 x 60% */}
+	
+	h2 {font-weight:300;font-size:4em; /* 6.85 x 60% */ }
+	
+	h3 {font-size:2em; /* 3.5 x 60% */}
+	
+	h4 {font-size:1.5em; /* 2.6 x 60% */}
+	
+	h5 {font-size:1em; /*1.618 x 60% */	}
+	
+	p {font-size:1.25em;font-weight:300;	}
 
+	.first-paragraph{font-size: 1.25em; /*2 x 60% */}
+	
+	.body-list {font-size: 1.25em; }
+	
 }
 
 /* iPads (landscape) ----------- */
@@ -254,6 +258,41 @@ and (min-width : 1025px) {
 		max-width: 30%;
 		max-height: 30%;
 	}
+	
+	h1 {
+		font-family: "bello-pro", Helvetica, !important;
+		font-size: 5em;
+	}
+	
+	
+	h2 {
+		font-weight:300;
+		font-size:6.85em;
+	}
+	
+	h3 {
+		font-size:3.5em;
+		line-height:1em;
+		padding-top: 0.5em !important;
+		margin-bottom: 0.5em;
+		font-style: normal;
+	}
+	
+	h4 {
+		font-size:2.6em;
+	}
+	
+	h5 {
+		font-size:1.618em;
+	}
+	
+	p {
+		font-size:1.618em;
+		font-weight:300;
+	}
+	
+	.body-list {font-size: 1.618em; }
+	h3.first-paragraph {font-size:1.618em;}	
 	
 /*	img {
 		margin: 0 auto !important;

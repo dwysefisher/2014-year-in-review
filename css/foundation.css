@@ -2884,7 +2884,7 @@ ul.pagination {
     .accordion dd.active a {
       background: white; }
     .accordion dd > a {
-      background: Khaki;
+      background: DarkGray;
       color: #990033;
       padding: 1rem;
       display: block;
@@ -2892,7 +2892,7 @@ ul.pagination {
       font-size: 1rem;
      /* border-bottom: 1px dotted #990033;*/ }
       .accordion dd > a:hover {
-        background: Snow; }
+        background: Gray; }
   .accordion .content {
     display: none;
     padding: 0.9375rem;
