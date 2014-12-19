@@ -206,7 +206,7 @@ and (max-device-width : 1024px) {
 		max-height: 25%;
 	}
 	
-	h1 {font-size: 3em; /* 5 x 60% */}
+	h1 {font-size: 3em; /* 5 x 60% */ }
 	
 	h2 {font-weight:300;font-size:4em; /* 6.85 x 60% */ }
 	
@@ -218,7 +218,7 @@ and (max-device-width : 1024px) {
 	
 	p {font-size:1.25em;font-weight:300;	}
 
-	.first-paragraph{font-size: 1.25em; /*2 x 60% */}
+	.first-paragraph{font-size: 1.25em; /*2 x 60% */ }
 	
 	.body-list {font-size: 1.25em; }
 	
@@ -259,16 +259,11 @@ and (min-width : 1025px) {
 		max-height: 30%;
 	}
 	
-	h1 {
-		font-family: "bello-pro", Helvetica, !important;
-		font-size: 5em;
-	}
+	h1 {font-family: "Karmina-sans", Helvetica, !important;
+		font-size: 5em;	}
 	
 	
-	h2 {
-		font-weight:300;
-		font-size:6.85em;
-	}
+	h2 {font-weight:300;font-size:6.85em;	}
 	
 	h3 {
 		font-size:3.5em;
@@ -278,25 +273,18 @@ and (min-width : 1025px) {
 		font-style: normal;
 	}
 	
-	h4 {
-		font-size:2.6em;
-	}
+	h4 {font-size:2.6em;}
 	
-	h5 {
-		font-size:1.618em;
-	}
+	h5 {font-size:1.618em;}
 	
-	p {
-		font-size:1.618em;
-		font-weight:300;
-	}
+	p {font-size:1.618em;font-weight:300;}
 	
 	.body-list {font-size: 1.618em; }
 	h3.first-paragraph {font-size:1.618em;}	
 	
 /*	img {
 		margin: 0 auto !important;
+		width: 1000px;
 		max-width: 100%;
 	}*/
-		   
 }
